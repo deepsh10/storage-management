@@ -23,7 +23,7 @@ public class RekognitionClientFactory {
         clientConfig.setRequestTimeout(60000);
         clientConfig.setProtocol(Protocol.HTTPS);
 
-        AWSCredentials awsCredentials = new BasicAWSCredentials("AKIAWGFQMHOMS5MQEFUH","KinpgEM3PuyxgNEVhp8vYyVIkoY2xHl/KF2/6uf4");
+        AWSCredentials awsCredentials = new BasicAWSCredentials();
 
         return AmazonRekognitionClientBuilder
                 .standard()
